@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd"
+>
+
+    <!--<bean id="userJK" class="com.example.model.User">-->
+        <!--<constructor-arg name="login" value="jankowalski" />-->
+        <!--<constructor-arg name="firstName" value="Jan" />-->
+        <!--<constructor-arg name="lastName" value="Kowlski"/>-->
+        <!--<constructor-arg name="email" value="jkowasli@gmail.com"/>-->
+        <!--<constructor-arg name="address" ref="addressJK"/>-->
+    <!--</bean>-->
+
+    <!--<bean id="addressJK" class="com.example.model.UserAddress">-->
+        <!--<property name="city" value="Warsaw"/>-->
+        <!--<property name="country" value="Poland"/>-->
+        <!--<property name="street" value="Krotka"/>-->
+        <!--<property name="zipCode" value="12-100"/>-->
+    <!--</bean>-->
+
+    <!--<bean id="userAN" class="com.example.model.User">-->
+        <!--<constructor-arg name="login" value="anowak" />-->
+        <!--<constructor-arg name="firstName" value="Andrzej" />-->
+        <!--<constructor-arg name="lastName" value="Nowak"/>-->
+        <!--<constructor-arg name="email" value="anowak@gmail.com"/>-->
+        <!--<constructor-arg name="address" ref="addressAN"/>-->
+    <!--</bean>-->
+
+    <!--<bean id="addressAN" class="com.example.model.UserAddress">-->
+        <!--<property name="city" value="Krakow"/>-->
+        <!--<property name="country" value="Poland"/>-->
+        <!--<property name="street" value="Wawelska"/>-->
+        <!--<property name="zipCode" value="10-200"/>-->
+    <!--</bean>-->
+
+    <!--<bean id="userDao" class="com.example.dao.UserDAO" >-->
+        <!--<constructor-arg>-->
+            <!--<list>-->
+                <!--<ref bean="userJK"/>-->
+                <!--<ref bean="userAN"/>-->
+            <!--</list>-->
+        <!--</constructor-arg>-->
+    <!--</bean>-->
+
+    <!--<context:component-scan base-package="com.example"/>-->
+
+</beans>
